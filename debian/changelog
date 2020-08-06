@@ -1,0 +1,5 @@
+proxmox-archive-keyring (1.0) pbs pmg pve; urgency=medium
+
+  * unify keyring handling for all products into single package
+
+ -- Proxmox Support Team <support@proxmox.com>  Thu, 6 Aug 2020 16:33:01 +0200

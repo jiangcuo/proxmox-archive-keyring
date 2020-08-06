@@ -1,0 +1,12 @@
+Source: proxmox-archive-keyring
+Section: misc
+Priority: optional
+Build-Depends: debhelper (>=12~),
+               lintian,
+Maintainer: Proxmox Support Team <support@proxmox.com>
+
+Package: proxmox-archive-keyring
+Architecture: all
+Description: Proxmox APT archive keyring
+ This package contains the release keyrings used to sign APT repositories for
+ various Proxmox products.
