@@ -1,0 +1,1 @@
+rm_conffile /etc/apt/trusted.gpg.d/proxmox-release-stretch.gpg 2.0~~

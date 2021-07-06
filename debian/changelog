@@ -1,3 +1,9 @@
+proxmox-archive-keyring (2.0) pbs pmg pve; urgency=medium
+
+  * remove Stretch / 5.x release key
+
+ -- Proxmox Support Team <support@proxmox.com>  Tue, 6 Jul 2021 14:02:26 +0200
+
 proxmox-archive-keyring (1.1) pbs pmg pve; urgency=medium
 
   * add new release key for Debian Bullseye
