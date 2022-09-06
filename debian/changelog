@@ -1,3 +1,9 @@
+proxmox-archive-keyring (2.1) pbs pmg pve; urgency=medium
+
+  * add Proxmox Offline Mirror Signing key
+
+ -- Proxmox Support Team <support@proxmox.com>  Tue, 6 Sep 2022 08:55:05 +0200
+
 proxmox-archive-keyring (2.0) pbs pmg pve; urgency=medium
 
   * remove Stretch / 5.x release key
