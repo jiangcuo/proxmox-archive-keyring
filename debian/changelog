@@ -1,10 +1,16 @@
-proxmox-archive-keyring (2.1) pbs pmg pve; urgency=medium
+proxmox-archive-keyring (2.2) bullseye; urgency=medium
+
+  * add ew release key for Debian 12 Bookworm
+
+ -- Proxmox Support Team <support@proxmox.com>  Sun, 27 Nov 2022 14:55:38 +0100
+
+proxmox-archive-keyring (2.1) bullseye; urgency=medium
 
   * add Proxmox Offline Mirror Signing key
 
  -- Proxmox Support Team <support@proxmox.com>  Tue, 6 Sep 2022 08:55:05 +0200
 
-proxmox-archive-keyring (2.0) pbs pmg pve; urgency=medium
+proxmox-archive-keyring (2.0) bullseye; urgency=medium
 
   * remove Stretch / 5.x release key
 
