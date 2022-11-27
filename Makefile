@@ -21,7 +21,7 @@ ${DEB}: debian
 
 .PHONY: upload
 upload: ${DEB}
-	tar cf - ${DEB}|ssh repoman@repo.proxmox.com -- upload --product pve,pmg,pbs,pbs-client,infra --dist bullseye
+	tar cf - ${DEB}|ssh repoman@repo.proxmox.com -- upload --product pve,pmg,pbs,pbs-client,infra --dist bookworm
 
 .PHONY: distclean
 distclean: clean
