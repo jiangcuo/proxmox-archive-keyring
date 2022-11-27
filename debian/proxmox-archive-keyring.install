@@ -1,3 +1,4 @@
 debian/proxmox-release-buster.gpg etc/apt/trusted.gpg.d/
 debian/proxmox-release-bullseye.gpg etc/apt/trusted.gpg.d/
+debian/proxmox-release-bookworm.gpg etc/apt/trusted.gpg.d/
 debian/proxmox-offline-signing-key.pub /usr/share/keyrings/
