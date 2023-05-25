@@ -1,8 +1,7 @@
 Source: proxmox-archive-keyring
 Section: misc
 Priority: optional
-Build-Depends: debhelper (>=12~),
-               lintian,
+Build-Depends: debhelper-compat (=13), lintian,
 Maintainer: Proxmox Support Team <support@proxmox.com>
 
 Package: proxmox-archive-keyring
