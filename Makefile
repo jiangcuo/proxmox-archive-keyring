@@ -4,7 +4,7 @@ PACKAGE=proxmox-archive-keyring
 
 GITVERSION:=$(shell git rev-parse HEAD)
 
-DEB=$(PACKAGE)_$(DEB_VERSION_UPSTREAM_REVISION)_all.deb
+DEB=$(PACKAGE)_$(DEB_VERSION)_all.deb
 
 BUILD_DIR=build
 
