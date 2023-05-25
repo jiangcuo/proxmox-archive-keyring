@@ -5,6 +5,7 @@ BUILDDIR=$(PACKAGE)-$(DEB_VERSION_UPSTREAM)
 
 GITVERSION:=$(shell git rev-parse HEAD)
 
+DSC=$(PACKAGE)_$(DEB_VERSION).dsc
 DEB=$(PACKAGE)_$(DEB_VERSION)_all.deb
 
 all: deb
@@ -20,6 +21,16 @@ deb: $(DEB)
 $(DEB): $(BUILDDIR)
 	cd $(BUILDDIR); dpkg-buildpackage -b -uc -us
 	lintian $(DEB)
+
+dsc: clean
+	$(MAKE) $(DSC)
+	lintian $(DSC)
+
+$(DSC): $(BUILDDIR)
+	cd $(BUILDDIR); dpkg-buildpackage -S -uc -us
+
+sbuild: $(DSC)
+	sbuild $(DSC)
 
 .PHONY: upload
 upload: $(DEB)
