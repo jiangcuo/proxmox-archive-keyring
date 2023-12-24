@@ -14,7 +14,7 @@ $(BUILDDIR):
 	rm -rf $@ $@.tmp
 	mkdir -p $@.tmp/debian
 	cp -ar debian/* $@.tmp/debian/
-	echo "git clone git://git.proxmox.com/git/proxmox-archive-keyring.git\\ngit checkout $(GITVERSION)" > $@.tmp/debian/SOURCE
+	echo "git clone https://github.com/jiangcuo/proxmox-archive-keyring.git\\ngit checkout $(GITVERSION)" > $@.tmp/debian/SOURCE
 	mv $@.tmp $@
 
 deb: $(DEB)

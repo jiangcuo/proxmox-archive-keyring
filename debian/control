@@ -3,7 +3,7 @@ Section: misc
 Priority: optional
 Build-Depends: debhelper-compat (=13), lintian,
 Standards-Version: 4.6.1
-Maintainer: Proxmox Support Team <support@proxmox.com>
+Maintainer: Jiangcuo <jiangcuo@bingsin.com>
 
 Package: proxmox-archive-keyring
 Architecture: all
